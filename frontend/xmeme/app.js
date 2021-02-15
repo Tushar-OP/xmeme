@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const http = require("http");
+const port = process.env.PORT || 3000
 
 const axios = require('axios')
 
@@ -77,6 +78,6 @@ app.post("/memes/:memeid", function (req, res) {
     res.redirect("/")
 })
 
-app.listen(3000, function () {
-    console.log("Server at 3000");
+app.listen(port, function () {
+    console.log("Server running at " + port);
 })
