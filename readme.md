@@ -1,12 +1,16 @@
 # XMEME 
 ### A project for Crio - Winter of Doing
 
-![Crio Banner](link here)
+![Crio Banner](XMEME_banner.png)
 
 This project has 2 parts:
 
 - FRONTEND:
-    - Contains code for the frontend of the application
+    - Contains code for the frontend of the application made using Node and EJS
+    - If you want to run on the local machine
+        - Go to the "frontend/xmeme" folder
+        - Ensure you have node installed with the dependencies in the package.json file
+        - Enter 'node app.js' in the terminal
 - BACKEND: 
     - Contains code for the API made using Python, FastAPI and SQLite
     - If you want to run on the local machine
